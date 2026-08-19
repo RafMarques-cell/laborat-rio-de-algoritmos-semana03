@@ -1,0 +1,17 @@
+Leia um número fornecido pelo usuário. Se esse número for positivo, apresente o dobro do valor digitado. Se o número for negativo, mostre uma mensagem dizendo que o número é inválido.
+
+# Solicita um número ao usuário (pode ser inteiro ou com casas decimais)
+numero = float(input("Digite um número: "))
+
+# Verifica se o número é positivo
+if numero > 0:
+    dobro = numero * 2
+    print(f"O dobro do valor digitado é: {dobro}")
+elif numero < 0:
+    print("O número é inválido.")
+else:
+    # Caso o usuário digite 0 (que não é estritamente positivo nem negativo)
+    print("O número 0 é neutro (nem positivo, nem negativo).")
+
+Digite um número: 28
+O dobro do valor digitado é: 56.0
