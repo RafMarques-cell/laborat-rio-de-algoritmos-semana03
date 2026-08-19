@@ -1,0 +1,18 @@
+Escreva um algoritmo em Python que dada a idade de uma pessoa, determine sua classificação:
+maior de idade;
+menor de idade;
+
+idade = int(input("Digite a sua idade: "))
+
+# Verifica a classificação de idade
+if idade >= 18:
+    print("Classificação: Maior de idade")
+elif idade >= 0:
+    print("Classificação: Menor de idade")
+else:
+    print("Idade inválida! Digite um valor maior ou igual a zero.")
+
+Digite a sua idade: 20
+Classificação: Maior de idade
+
+
